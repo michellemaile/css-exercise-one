@@ -3,7 +3,7 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
+html, body, div, span, applet, object, iframe,  		  /* this is the beginning of the css reset */
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
@@ -45,15 +45,15 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
-}
+}                          				    /* this is the end of the css reset */
 
 
 
-body {
+body {				                           /* this specifies the font size in the body */
   font-size: 14px;
 }
 
-nav {
+nav {                         			             /* these are the default settings in the nav */
   background color: yellow;
   height: 100px;
   margin-top: -10px;
@@ -71,22 +71,22 @@ h1 {
   font-size: 2em;
 }
 
-.example, h3 {
+.example, h3 {				                      /* both example and h3 have these attributes */
   padding-top: 30px;
   text-align: center;
 }
 
-h3 {
+h3 {							     /* h3 is different from example in that it has this attribute */
   font-size: 1.3em;
 }
 
-.element {
+.element {		            		                  /* these are the deafult settings for the elements */
   background-color: green;
   height: 100px;
   margin: 10px 0;
   width: 100%;
 }
 
-.lastelement {
+.lastelement {				                    /* this changes the background color on the last three elements */
 	background-color: blue;
 }
