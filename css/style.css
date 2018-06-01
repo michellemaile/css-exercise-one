@@ -87,6 +87,6 @@ h3 {							     /* h3 is different from example in that it has this attribute */
   width: 100%;
 }
 
-.lastelement {				                    /* this changes the background color on the last three elements */
+.element lastelement {				                    /* this changes the background color on the last three elements */
 	background-color: blue;
 }
